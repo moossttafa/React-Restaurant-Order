@@ -174,7 +174,7 @@ const FormContainer = () => {
                         Add
                       </Button>
                       <Button type="reset" variant="outlined" color="default">
-                        Reset
+                        New Order
                       </Button>
                     </div>
                   </Grid>
@@ -228,12 +228,7 @@ const FormContainer = () => {
             </TableBody>
           </Table>
         </TableContainer>
-      </Paper>
-      <Grid item sm={6}>
-      <Button type="submit" variant="contained" color="primary">
-             New Order
-          </Button>
-      </Grid>
+      </Paper> 
     </>
   );
 };
